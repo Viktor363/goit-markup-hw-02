@@ -1,0 +1,58 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+ nav li{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+.contact{
+    list-style: none;
+        text-decoration: none;
+        display: inline-block;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* width: 1440px; */
+    /* height: 72px; */
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+    text-decoration: none;
+}
+.webStudio{
+    margin-right: auto;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav_links{
+    float: left;
+    text-decoration: none;
+}
+span{
+    color: #4D5AE5;
+    text-decoration: none;
+}
+.logo{
+    width: 71px;
+        height: 21px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+            display: flex;
+                align-items: center;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                text-decoration: none;
+    color:black;
+}
