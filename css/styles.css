@@ -1,12 +1,61 @@
-body{
+/* :root
+{}
+{ 
+ font-family: 'Raleway',sans-serif;
+}
+{
+font-family: 'Roboto',
+sans-serif;
+}
+body
+{
+ color: #434455
+}
+{
+ background-color: #FFFFFF
+} */
+ <body style="background-color:blank;">
+ li {
+     display: block;
+     color: black;
+ }
+ .Web
+ {font-family:'Raleway',
+    sans-serif;
+    font-style:extrabold;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color:#4D5AE5;
+ }
+ .Studio
+ {
+    font-family: 'Raleway',
+        sans-serif;
+    font-style: extrabold;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+} 
+ .Nmenu
+ {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+ }
+  .address
+ {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-}
- a {
-     text-decoration: none;
- }
-
+    color: black;
+    
+    
+    }
