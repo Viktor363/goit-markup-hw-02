@@ -1,44 +1,78 @@
+:root {
+   --white-color: #ffffff;
+   
+   
+}
+body {
+   font-family: 'Roboto', sans-serif;
+   color: #434455;
+   background-color: #ffffff;
+}
+a {
+   text-decoration: none;
+   color: #000;
+
+}
+ 
 li {
-     display: block;
-     color: black;
+   display: block;
+   color: black;
+   
+}
+
+.Web link{
+   font-family: 'Raleway',
+      sans-serif;
+   font-style: extrabold;
+   font-weight: 800;
+   font-size: 18px;
+   letter-spacing: 0.03em;
+   line-height: 1.17;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: #4D5AE5;
+   
+}
+
+.Studio {
+   font-family: 'Raleway',
+      sans-serif;
+   font-style: extrabold;
+   font-weight: 800;
+   font-size: 18px;
+   letter-spacing: 0.03em;
+   color: #2E2F42;
+}
+.Nav list {
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02;
+   color: #2E2F42;
+   list-style: none;
+   text-decoration: none;
+}
+ .Nav item-link:hover,
+ .Nav item-link:focus {
+   color: #404bbf;
+   }
+.address list {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   list-style: none;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color :#434455;
+   }
+ .address link:hover,
+ .address link:focus {
+   color: #404bbf;
  }
- .Web
- {font-family:'Raleway',
-    sans-serif;
-    font-style:extrabold;
-    font-weight: 800;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    color:#4D5AE5;
- }
- .Studio
- {
-    font-family: 'Raleway',
-        sans-serif;
-    font-style: extrabold;
-    font-weight: 800;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    color: #2E2F42;
-} 
- .Nmenu
- {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
- }
-  .address
- {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: black;
-    
-    
-    }
+
+
+ 
+
+
