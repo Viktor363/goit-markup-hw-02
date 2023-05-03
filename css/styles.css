@@ -27,11 +27,11 @@ li {
       sans-serif;
    font-style: extrabold;
    font-weight: 800;
-   font-size: 18px;
+   font-size: 55px;
    letter-spacing: 0.03em;
-   line-height: 1.17;
-   text-transform: uppercase;
-   text-decoration: none;
+   /* line-height: 1.17; */
+   /* text-transform: uppercase;
+   text-decoration: none; */
    color: var(--blue-logo-color);
    
 }
@@ -76,7 +76,7 @@ li {
  }
  .Hero kontejner {
    background-color: var(--black-logo-color);
-   font-size: 56px;
+   font-size: 188px;
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
@@ -85,9 +85,9 @@ li {
  .Order Service {
    background-color: #4D5AE5;
    font-family: "Roboto" , sans-serif;
-   font-weight: 500;
-
-
+   font-weight: 900;
+   line-height: 4.5;
+   font-size: 40px;
  }
 
  
