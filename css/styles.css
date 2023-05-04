@@ -10,19 +10,15 @@ body {
    color: #434455;
    background-color :var(--white-color);
 }
-a {
-   text-decoration: none;
-   color: #000;
+ .list {
+    list-style: none;
+ }
+ .link {
+    color: var(--black-contacts-color);
+    text-decoration: none;
+ }
 
-}
- 
-li {
-   display: block;
-   color: black;
-   
-}
-
-.Web-link {
+.web-link {
    font-family: 'Raleway',
       sans-serif;
    font-style: extrabold;
@@ -36,7 +32,7 @@ li {
    
 }
 
-.Studio {
+.studio {
    font-family: 'Raleway',
       sans-serif;
    font-style: extrabold;
@@ -45,7 +41,7 @@ li {
    letter-spacing: 0.03em;
    color: var(--black-logo-color);
 }
-.Nav list {
+.nav list {
    font-family: 'Roboto', sans-serif;
    font-weight: 500;
    font-size: 16px;
@@ -55,14 +51,12 @@ li {
    list-style: none;
    text-decoration: none;
 }
- .Nav item-link:hover,
- .Nav item-link:focus {
+ .nav item-link:hover,
+ .nav item-link:focus {
    color: #404bbf;
    }
 .address list {
    font-family: 'Roboto', sans-serif;
-   font-style: Regular;
-   Text style: Body;
    font-weight: 400;
    font-size: 16px;
    list-style: none;
@@ -74,22 +68,31 @@ li {
  .address link:focus {
    color: #404bbf;
  }
- .Hero kontejner {
+ .hero kontejner {
    background-color: var(--black-logo-color);
-   font-size: 188px;
+ }
+  .hero text {
+   font-size: 56px;
    line-height: 1.07;
    text-align: center;
    letter-spacing: 0.02em;
    color: #ffffff;
  }
- .Order Service {
+ .button hero {
    background-color: #4D5AE5;
    font-family: "Roboto" , sans-serif;
-   font-weight: 900;
+   font-weight: 500;
    line-height: 1.5;
-   font-size: 40px;
+   font-size: 16px;
+   letter-spacing: 0.04em;
+   color: #ffffff;
+   cursor: pointer;
  }
-
+ .button hero:hover,
+ .button hero:focus{
+   background-color: #404BBF;
+ }
+ 
  
 
 
