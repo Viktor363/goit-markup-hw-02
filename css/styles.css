@@ -19,10 +19,11 @@ body {
     line-height: 1.17; 
     text-transform: uppercase;
    text-decoration: none; 
-    color: var(--blue-logo-color); 
+    
    }
    .web-link.link {
       text-decoration: none;
+      color: var(--blue-logo-color);
      
    }
 .studio-link.link {
