@@ -36,9 +36,9 @@ body {
    color: var(--black-logo-color);
    text-decoration: none;
 }
-.list {
+ /* .list { 
    list-style: none;
-}
+} */
  .nav-list {
    list-style: none;
     }
