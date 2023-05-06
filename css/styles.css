@@ -24,7 +24,7 @@ body {
    .web-link.link {
       text-decoration: none;
    }
-.studio {
+.studio.link {
    font-family: 'Raleway',
       sans-serif;
    font-style: extrabold;
@@ -36,15 +36,10 @@ body {
 .list {
    list-style: none;
 }
-
- a.link {
-   color: var(--black-contacts-color);
-   text-decoration: none;
- }
-.nav list {
+ .nav list {
    list-style: none;
     }
-   .nav-link {
+   .nav-link.link{
    font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
