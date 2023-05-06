@@ -21,7 +21,7 @@ body {
    text-decoration: none; 
    color: var(--blue-logo-color);
    }
-   .web-link {
+   .web-link.link {
       text-decoration: none;
    }
 .studio {
@@ -37,7 +37,7 @@ body {
    list-style: none;
 }
 
-a:link {
+.link {
    color: var(--black-contacts-color);
    text-decoration: none;
 }
@@ -59,10 +59,9 @@ a:link {
  .address {
    font-style: normal;
  }
-.address-list {
+ .address-list {
    list-style: none;
   }
-
  .address:hover,
  .address:focus {
    color: #404bbf;
