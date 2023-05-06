@@ -23,6 +23,7 @@ body {
    }
    .web-link.link {
       text-decoration: none;
+      color: var(--blue-logo-color);
    }
 .studio.link {
    font-family: 'Raleway',
