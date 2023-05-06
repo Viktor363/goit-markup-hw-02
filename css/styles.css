@@ -23,9 +23,9 @@ body {
    }
    .web-link.link {
       text-decoration: none;
-       /* color: var(--blue-logo-color);  */
+     
    }
-.studio.link {
+.studio-link.link {
    font-family: 'Raleway',
       sans-serif;
    font-style: extrabold;
