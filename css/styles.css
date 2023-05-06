@@ -36,10 +36,8 @@ body {
    color: var(--black-logo-color);
    text-decoration: none;
 }
- /* .list { 
-   list-style: none;
-} */
- .nav-list {
+ 
+ .nav-list.list {
    list-style: none;
     }
     ul.list {
