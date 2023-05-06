@@ -12,11 +12,11 @@ body {
  .list {
     list-style: none;
  }
- .link {
+ a:link {
     color: var(--black-contacts-color);
     text-decoration: none;
  }
-.web-link {
+.web {
    font-family: 'Raleway',
       sans-serif;
    font-style: extrabold;
@@ -38,30 +38,29 @@ body {
    color: var(--black-logo-color);
 }
 .nav list {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02;
-   color: var(--black-logo-color);
    list-style: none;
-   text-decoration: none;
-}
- .nav item-link:hover,
- .nav item-link:focus {
+    }
+   .nav item {
+   font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02;
+      color: var(--black-logo-color);
+      text-decoration: none;
+   }
+ .nav item:hover,
+ .nav item:focus {
    color: #404bbf;
    }
+ .address {
+   font-style: normal;
+ }
 .address list {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 400;
-   font-size: 16px;
    list-style: none;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color : var(--black-contacts-color);
-   }
- .address link:hover,
- .address link:focus {
+  }
+
+ .address:hover,
+ .address:focus {
    color: #404bbf;
  }
  .hero kontejner {
