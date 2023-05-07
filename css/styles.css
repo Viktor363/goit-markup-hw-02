@@ -42,7 +42,7 @@ body {
  .list {
    list-style: none;
  }
- .nav-list.list {
+ .nav-list list {
    list-style-type: none;
  }
    .nav-link{
