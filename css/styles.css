@@ -59,7 +59,11 @@ body {
    }
  .address {
    font-style: normal;
- }
+  }
+   ul.address-list {
+      list-style-type: none;
+   }
+ 
  li.address-list {
    list-style-type: none;
   }
