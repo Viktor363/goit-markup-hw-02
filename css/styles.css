@@ -48,8 +48,8 @@ body {
    .nav-link.link{
    font-weight: 500;
       font-size: 16px;
-      letter-spacing: 0.02;
-      line-height: 1.5;
+      letter-spacing: 0.02em;
+      line-height: 24px;
       color: var(--black-logo-color);
       text-decoration: none;
    }
