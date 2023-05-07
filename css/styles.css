@@ -62,6 +62,7 @@ body {
   }
    ul.address-list list {
       list-style-type: none;
+      --black-contacts-color: #434455;
    }
  
  li.address-list {
