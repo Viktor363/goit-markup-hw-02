@@ -45,7 +45,7 @@ body {
  .nav-list list {
    list-style-type: none;
  }
-   .nav-link.link {
+   .nav-link {
    font-weight: 500;
       font-size: 16px;
       letter-spacing:0.02em;
@@ -62,7 +62,7 @@ body {
   }
    ul.address-list list {
       list-style-type: none;
-      --black-contacts-color: #434455;
+      
    }
  
  li.address-list {
