@@ -60,7 +60,7 @@ body {
  .address {
    font-style: normal;
  }
- .address-list {
+ li.address-list {
    list-style: none;
   }
  .address:hover,
