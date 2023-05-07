@@ -45,7 +45,7 @@ body {
  .nav-list list {
    list-style-type: none;
  }
-   .nav-link{
+   .nav-link.link {
    font-weight: 500;
       font-size: 16px;
       letter-spacing:0.02em;
