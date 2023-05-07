@@ -50,7 +50,6 @@ body {
       font-size: 16px;
       letter-spacing: 0.02;
       line-height: 1.5;
-      
       color: var(--black-logo-color);
       text-decoration: none;
    }
@@ -62,7 +61,7 @@ body {
    font-style: normal;
  }
  li.address-list {
-   list-style: none;
+   list-style-type: none;
   }
  .address:hover,
  .address:focus {
