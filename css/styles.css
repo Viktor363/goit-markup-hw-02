@@ -10,15 +10,7 @@ body {
    background-color :var(--white-color);
 }
  .logo {
-   /* font-family: 'Raleway',
-      sans-serif;
-   font-style: normal ;
-   font-weight: 800;
-   font-size: 18px;
-   letter-spacing: 0.03em;
-    line-height: 1.17; 
-    text-transform: uppercase;
-    text-decoration: none; */
+   
    }
      .web-link.link {
       font-family: 'Raleway',
@@ -100,7 +92,7 @@ body {
  .button-hero:focus{
    background-color: #404BBF;
  }
- .section-list-list {
+ .section-list.list {
    list-style: none;
  }
  .section-title-list {
@@ -124,7 +116,7 @@ body {
          text-transform: capitalize;
          color: var(--black-logo-color);
    }
-    .presentation-list-list {
+    .presentation-list.list {
     background-color: #ffffff;
    }
    .section-persons {
