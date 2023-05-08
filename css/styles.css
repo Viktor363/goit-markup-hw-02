@@ -20,10 +20,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
    }
-   
-
-   
-   .web-link.link {
+     .web-link.link {
       text-decoration: none;
       color: var(--blue-logo-color);
      
@@ -118,7 +115,7 @@ body {
          text-transform: capitalize;
          color: var(--black-logo-color);
    }
-   /* .presentation-list list {
+    .presentation-list list {
     background-color: #ffffff;
    }
    .section-persons {
@@ -126,11 +123,20 @@ body {
    }
    .section-images {
    background-color: #F4F4FD;
-   } */
+   } 
    .footer {
       background-color: var(--black-logo-color);
    }
-   .footer-studio {
+   .footer-link {
+   color: #F4F4FD;
+   }
+   .footer-text {
+   font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.02em;
       color: #F4F4FD;
    }
 
