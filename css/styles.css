@@ -10,7 +10,7 @@ body {
    background-color :var(--white-color);
 }
  .logo {
-   font-family: 'Raleway',
+   /* font-family: 'Raleway',
       sans-serif;
    font-style: normal ;
    font-weight: 800;
@@ -18,9 +18,18 @@ body {
    letter-spacing: 0.03em;
     line-height: 1.17; 
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: none; */
    }
      .web-link.link {
+      font-family: 'Raleway',
+            sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 18px;
+      letter-spacing: 0.03em;
+      line-height: 1.17;
+      text-transform: uppercase;
+      text-decoration: none;
       text-decoration: none;
       color: var(--blue-logo-color);
      
@@ -124,9 +133,9 @@ body {
    .section-images {
    background-color: #F4F4FD;
    } 
-   .footer {
+    .footer {
       background-color: var(--black-logo-color);
-   }
+   } 
    .footer-link {
    font-family: 'Raleway',
          sans-serif;
