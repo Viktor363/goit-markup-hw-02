@@ -91,7 +91,7 @@ body {
  .button-hero:focus{
    background-color: #404BBF;
  }
- .section-list list {
+ .section-list-list {
    list-style: none;
  }
  .section-title-list {
@@ -115,7 +115,7 @@ body {
          text-transform: capitalize;
          color: var(--black-logo-color);
    }
-    .presentation-list list {
+    .presentation-list-list {
     background-color: #ffffff;
    }
    .section-persons {
@@ -128,6 +128,14 @@ body {
       background-color: var(--black-logo-color);
    }
    .footer-link {
+   font-family: 'Raleway',
+         sans-serif;
+   font-style: normal;
+   font-weight: 800;
+   font-size: 18px;
+   line-height: 21px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
    color: #F4F4FD;
    }
    .footer-text {
