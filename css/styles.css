@@ -1,8 +1,8 @@
 :root {
    --white-color: #ffffff;
-   --blue-logo-color:#4d5ae5;
    --black-logo-color:#2e2f42;
    --black-contacts-color:#434455;
+   --blue-logo-color: #4d5ae5;
 }
 body {
    font-family: 'Roboto', sans-serif;
@@ -12,15 +12,17 @@ body {
  .logo {
    font-family: 'Raleway',
       sans-serif;
-   font-style: extrabold;
+   font-style: normal ;
    font-weight: 800;
    font-size: 18px;
    letter-spacing: 0.03em;
     line-height: 1.17; 
     text-transform: uppercase;
-   text-decoration: none; 
-    
+    text-decoration: none;
    }
+   
+
+   
    .web-link.link {
       text-decoration: none;
       color: var(--blue-logo-color);
@@ -29,49 +31,44 @@ body {
 .studio-link.link {
    font-family: 'Raleway',
       sans-serif;
-   font-style: extrabold;
+   font-style: normal;
    font-weight: 800;
    font-size: 18px;
    letter-spacing: 0.03em;
    color: var(--black-logo-color);
    text-decoration: none;
-}
-  li {
-    list-style-type: none;
- } 
- .list {
+ }
+  .list {
    list-style: none;
- }
- .nav-list list {
-   list-style-type: none;
- }
-   .nav-link {
+ } 
+  .nav-link.link{
+   font-family: 'Roboto';
+   font-style: normal;
+   text-transform: capitalize;
    font-weight: 500;
-      font-size: 16px;
-      letter-spacing:0.02em;
-      line-height: 1.5;
-      color: var(--black-logo-color);
-      text-decoration: none;
+   font-size: 16px;
+    letter-spacing:0.02em;
+    line-height: 1.5; 
+   color: var(--black-logo-color);
+   text-decoration: none;
    }
- .nav-link:hover,
- .nav-link:focus {
+  .nav-link:hover,
+  .nav-link:focus { 
    color: #404bbf;
-   }
+   } 
+   
  .address {
    font-style: normal;
-  }
-   ul.address-list list {
-      list-style-type: none;
-      
    }
- 
- li.address-list {
+   .contacts-link {
    list-style-type: none;
-  }
- .address:hover,
- .address:focus {
+   color: var(--black-contacts-color);
+   }
+   
+  .contacts-link:hover,
+  .contacts-link:focus {
    color: #404bbf;
- }
+  }
  .hero {
    background-color: var(--black-logo-color);
  }
@@ -86,8 +83,8 @@ body {
    font-family: "Roboto" , sans-serif;
    font-style: normal;
    font-weight: 500;
-   line-height: 1.5;
    font-size: 16px;
+   line-height: 1.5;
    letter-spacing: 0.04em;
    background-color: #4D5AE5;
    color: #ffffff;
@@ -97,7 +94,7 @@ body {
  .button-hero:focus{
    background-color: #404BBF;
  }
- .section-list {
+ .section-list list {
    list-style: none;
  }
  .section-title-list {
