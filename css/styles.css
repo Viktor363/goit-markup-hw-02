@@ -39,7 +39,7 @@ body {
   .list {
    list-style: none;
  } 
-  .nav-link.link{
+  .nav-link{
    font-family: 'Roboto';
    font-style: normal;
    text-transform: capitalize;
