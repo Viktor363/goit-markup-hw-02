@@ -118,16 +118,15 @@ body {
          text-transform: capitalize;
          color: var(--black-logo-color);
    }
-   .presentation-list list {
-      list-style: none;
-      background-color: #ffffff;
+   /* .presentation-list list {
+    background-color: #ffffff;
    }
    .section-persons {
       background-color: #F4F4FD;
    }
    .section-images {
    background-color: #F4F4FD;
-   }
+   } */
    .footer {
       background-color: var(--black-logo-color);
    }
