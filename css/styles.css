@@ -58,7 +58,7 @@ body {
  .address {
    font-style: normal;
    }
-   .contacts-link {
+   .contacts-link.link {
    line-height: 1.5;
    letter-spacing: 0.02em;
    list-style-type: none;
