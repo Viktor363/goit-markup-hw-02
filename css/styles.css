@@ -118,7 +118,7 @@ body {
          text-transform: capitalize;
          color: var(--black-logo-color);
    }
-   .presentation-list {
+   .presentation-list list {
       list-style: none;
       background-color: #ffffff;
    }
