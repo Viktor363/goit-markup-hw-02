@@ -150,6 +150,12 @@ body {
       letter-spacing: 0.02em;
       color: #F4F4FD;
    }
+   .portfolio-list.list {
+      list-style: none;
+   }
+   .btn {
+      
+   }
 
  
  
