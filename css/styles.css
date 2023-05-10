@@ -10,8 +10,13 @@ body {
    color: #434455;
    background-color :var(--white-color);
 }
- 
-     .web-link {
+  .link {
+     text-decoration: none;
+  }
+  .list {
+     list-style: none;
+  }
+   .web-link {
       font-family: 'Raleway',
             sans-serif;
       font-style: normal;
@@ -26,19 +31,9 @@ body {
      
    }
 .studio-link {
-   font-family: 'Raleway',
-      sans-serif;
-   font-style: normal;
-   font-weight: 800;
-   font-size: 18px;
-   letter-spacing: 0.03em;
    color: var(--black-logo-color);
-   text-decoration: none;
- }
-  .list {
-   list-style: none;
- } 
-  .nav-link{
+    }
+  .nav-link {
    font-family: 'Roboto';
    font-style: normal;
    text-transform: capitalize;
@@ -57,9 +52,7 @@ body {
  .address {
    font-style: normal;
    }
-   .link {
-    list-style: none;  
-   }
+   
    .contacts-link {
    line-height: 1.5;
    letter-spacing: 0.02em;
