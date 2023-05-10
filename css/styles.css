@@ -11,7 +11,7 @@ body {
    background-color :var(--white-color);
 }
  
-     .web-link.link {
+     .web-link {
       font-family: 'Raleway',
             sans-serif;
       font-style: normal;
@@ -25,7 +25,7 @@ body {
       color: var(--blue-logo-color);
      
    }
-.studio-link.link {
+.studio-link {
    font-family: 'Raleway',
       sans-serif;
    font-style: normal;
