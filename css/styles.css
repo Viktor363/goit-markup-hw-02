@@ -10,9 +10,7 @@ body {
    color: #434455;
    background-color :var(--white-color);
 }
- .logo {
-   
-   }
+ 
      .web-link.link {
       font-family: 'Raleway',
             sans-serif;
@@ -59,7 +57,10 @@ body {
  .address {
    font-style: normal;
    }
-   .contacts-link.link {
+   .link {
+    list-style: none;  
+   }
+   .contacts-link {
    line-height: 1.5;
    letter-spacing: 0.02em;
    list-style-type: none;
