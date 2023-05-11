@@ -95,9 +95,10 @@ body {
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.04em;
+      cursor: pointer;
       --blue-logo-color: #4d5ae5;
       --all-button-color: #F4F4FD;
-      cursor: pointer;
+      
    }
  .section-list {
    list-style: none;
