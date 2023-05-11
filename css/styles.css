@@ -109,9 +109,12 @@ body {
          text-transform: capitalize;
          color: var(--black-logo-color);
    }
-    .presentation-list {
-    background-color: #ffffff;
+   .team {
+      background-color: #ffffff;
    }
+    /* .presentation-list {
+    background-color: #ffffff;
+   } */
    .section-persons {
       background-color: #F4F4FD;
    }
