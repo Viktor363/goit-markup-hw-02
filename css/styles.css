@@ -59,8 +59,11 @@ body {
    .link:hover,
    .link:focus {
    color: #404bbf;
+   }
+  .portfolio-list {
+   list-style: none;
   }
- .hero {
+  .hero {
    background-color: var(--black-logo-color);
  }
   .hero-text {
@@ -78,14 +81,25 @@ body {
    line-height: 1.5;
    letter-spacing: 0.04em;
    background-color: #4D5AE5;
-   color: #ffffff;
    cursor: pointer;
+   color: #ffffff;
+   
  }
  .button-hero:hover,
  .button-hero:focus{
    background-color: #404BBF;
  }
- .section-list.list {
+   .btn-item {
+   font-family: "Roboto", sans-serif;
+       font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      --blue-logo-color: #4d5ae5;
+      --all-button-color: #F4F4FD;
+      cursor: pointer;
+   }
+ .section-list {
    list-style: none;
  }
  .section-title-list {
@@ -141,19 +155,8 @@ body {
       letter-spacing: 0.02em;
       color: #F4F4FD;
    }
-   .portfolio-list.list {
-      list-style: none;
-   }
-   .btn-item {
-   font-family: "Roboto", sans-serif;
-       font-weight: 500;
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.04em;
-      --blue-logo-color: #4d5ae5;
-      --all-button-color: #F4F4FD;
-      cursor: pointer;
-   }
+   
+  
 
  
  
