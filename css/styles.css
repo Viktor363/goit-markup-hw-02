@@ -109,7 +109,7 @@ body {
          text-transform: capitalize;
          color: var(--black-logo-color);
    }
-    .presentation-list.list {
+    .presentation-list {
     background-color: #ffffff;
    }
    .section-persons {
