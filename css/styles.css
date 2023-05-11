@@ -98,7 +98,12 @@ body {
       cursor: pointer;
       --blue-logo-color: #4d5ae5;
       --all-button-color: #F4F4FD;
-      
+   }
+   .btn-item:hover,
+   .btn-item:focus {
+      color: #FFFFFF;
+      background-color: #404BBF;
+
    }
  .section-list {
    list-style: none;
