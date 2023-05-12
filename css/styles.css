@@ -96,8 +96,8 @@ body {
       line-height: 1.5;
       letter-spacing: 0.04em;
       cursor: pointer;
-      --blue-logo-color: #4d5ae5;
-      --all-button-color: #F4F4FD;
+     color: #4d5ae5;
+     background-color: #F4F4FD;
    }
    .btn-item:hover,
    .btn-item:focus {
@@ -122,6 +122,10 @@ body {
       color: var(--black-contacts-color);
    }
    .portfolio-title-list {
+      font-weight: 500;
+         font-size: 20px;
+         line-height: 1.2;
+         letter-spacing: 0.02em;
       color: var(--black-logo-color);
    }
    .portfolio-text-list {
